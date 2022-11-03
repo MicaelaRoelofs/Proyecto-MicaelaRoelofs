@@ -1,0 +1,224 @@
+* {
+    margin: 5;
+    padding: 0;
+}
+
+body {
+    background-image: url(images/fondo.jfif);
+    background-size: cover;
+}
+
+header {
+    background-color: #b2ffff;
+}
+
+header nav ul li {
+    color: blue;
+    display: inline; 
+    padding-left: 20px;
+    justify-content: space-around;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+}
+
+.welcome {
+    color: blue;
+    font-family: 'Permanent Marker', cursive; 
+    display: flex;
+    justify-content: center;
+}
+
+.welcome:hover {
+    transform: scale(2);
+    transition: all 4s;
+}
+
+.main-section, .atracciones, .entradas, .contacto {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.title {
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+}
+
+.title:hover {
+    transform: translate(400px);
+    transition: all 4s;
+}
+
+.title-ubicacion {
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+}
+
+.title-ubicacion:hover {
+    transform: translate(400px);
+    transition: all 4s;
+}
+
+img {
+    height: 400px;
+    width: 600px;
+}
+
+.leap-of-faith {
+    height: 400px;
+    width: 350px;
+}
+
+.title-entradas, .title-atracciones {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 25px;
+}
+
+.title-elige {
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+}
+.title-elige:hover {
+    transform: translate(400px);
+    transition: all 4s;
+}
+.entradas {
+    display: flex;
+    justify-content: center;
+}
+.title-entradas  {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    inset: 0;
+    margin: auto;
+}
+.title-entradas {
+  color: white;
+  height: 35px;
+  width: 450px;
+  border-radius: 6px;
+  background-color: rgb(82, 82, 243);
+}
+.title-entradas:hover {
+ transform: scale(2);
+ transition: all 2s;
+}
+.festeja-cumple {
+    font-size: 30px;
+    border: dotted black;
+    padding-top: 12px;
+    display: inline;
+    display: flex;
+    justify-content: center;
+}
+.cumpleaños {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.atlantis {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-atlantis {
+    height: 400px;
+    width: 600px;
+}
+
+.muchos-mas  {
+    font-size: large;
+    padding-top: 25px;
+}
+
+.festeja-cumple, .cumpleaños {
+    font-family: fantasy;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    grid-column-gap: 3px;
+    grid-row-gap: 10px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+    .title-ubicacion {
+        font-family: 'Lobster', cursive;
+        font-size: 30px;
+    }
+    .title-ubicacion:hover {
+        transform: translate(400px);
+        transition: all 4s;
+    }
+    .ubicacion {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+    .title-elige {
+        font-family: 'Lobster', cursive;
+        font-size: 30px;
+    }
+    .title-elige:hover {
+        transform: translate(400px);
+        transition: all 4s;
+    }
+    .entradas {
+        display: flex;
+        justify-content: center;
+    }
+    .title-entradas  {
+        font-family: 'Shadows Into Light', cursive;
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        inset: 0;
+        margin: auto;
+    }
+    .title-entradas {
+      color: white;
+      height: 35px;
+      width: 450px;
+      border-radius: 6px;
+      background-color: rgb(82, 82, 243);
+    }
+    .title-entradas:hover {
+     transform: scale(2);
+     transition: all 2s;
+    }
+    .festeja-cumple {
+        font-size: 30px;
+        border: dotted black;
+        padding-top: 12px;
+        display: inline;
+        display: flex;
+        justify-content: center;
+    }
+    .festeja-cumple, .cumpleaños {
+        font-family: fantasy;
+    }
+    .cumpleaños {
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .atlantis {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .img-atlantis {
+        height: 400px;
+        width: 600px;
+    }
+}
+
