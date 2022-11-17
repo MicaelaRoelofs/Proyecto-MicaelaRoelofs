@@ -1,0 +1,123 @@
+#contacto-title {
+    margin-top: 70px;
+    margin-bottom: 40px;
+    font-family: 'Lobster', cursive;
+    font-size: 45px;
+    margin-bottom: 20px;
+
+    &:hover {
+        transform: translate(512px);
+        transition: all 4s;
+    }
+}
+
+.contacto {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contacto1, .contacto2, .contacto3, .contacto4, .contacto5 {
+    font-size: large;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.link-ig {
+    text-decoration: none;
+
+    &::selection {
+        background-color: aquamarine;
+        color: #6f57ff;
+    }
+    &:hover {
+        text-decoration: underline;
+        color: #6f57ff;
+    }
+    &:visited {
+        color: #7c00f0;
+    }
+}
+
+.link-fb {
+    text-decoration: none;
+
+    &::selection {
+        background-color: aquamarine;
+        color: #6f57ff;
+    }
+    &:hover {
+        text-decoration: underline;
+        color: #6f57ff;
+    }
+    &:visited {
+        color: #7c00f0;
+    }
+}
+
+.link-tiktok {
+    text-decoration: none;
+
+    &::selection {
+        background-color: aquamarine;
+        color: #6f57ff;
+    }
+    &:hover {
+        text-decoration: underline;
+        color: #6f57ff;
+    }
+    &:visited {
+        color: #7c00f0;
+    }
+}
+
+.contacto4::selection {
+    background-color: aquamarine;
+    color: #6f57ff;
+}
+
+.contacto5::selection {
+    background-color: aquamarine;
+    color: #6f57ff;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+    #contacto-title {
+        margin-top: 70px;
+        margin-bottom: 40px;
+    }
+    
+    .contacto {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    .contacto1, .contacto2, .contacto3, .contacto4, .contacto5 {
+        font-size: large;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .link-ig .link-fb, .link-tiktok {
+        text-decoration: none;
+    
+        &::selection {
+            background-color: aquamarine;
+            color: #6f57ff;
+        }
+        &:hover {
+            text-decoration: underline;
+            color: #6f57ff;
+        }
+        &:visited {
+            color: #7c00f0;
+        }
+    }
+    
+    .contacto4::selection {
+        background-color: aquamarine;
+        color: #6f57ff;
+    }
+    
+    .contacto5::selection {
+        background-color: aquamarine;
+        color: #6f57ff;
+    }
+}

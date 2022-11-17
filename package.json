@@ -1,0 +1,22 @@
+{
+  "name": "proyecto-micaelaroelofs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MicaelaRoelofs/Proyecto-MicaelaRoelofs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MicaelaRoelofs/Proyecto-MicaelaRoelofs/issues"
+  },
+  "homepage": "https://github.com/MicaelaRoelofs/Proyecto-MicaelaRoelofs#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

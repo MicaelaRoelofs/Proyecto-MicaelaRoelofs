@@ -1,0 +1,733 @@
+@charset "UTF-8";
+* {
+  margin: 5;
+  padding: 0;
+}
+
+body {
+  background-image: url(/images/fondo.jpg);
+  background-size: cover;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: #b2ffff;
+}
+header .navbar {
+  background-color: #b2ffff;
+  top: 0;
+}
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  header .navbar {
+    background-color: #b2ffff;
+    top: 0;
+  }
+  header header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: #b2ffff;
+  }
+}
+
+main .welcome {
+  margin-top: 70px;
+  color: blue;
+  font-family: "Permanent Marker", cursive;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+}
+main .welcome:hover {
+  transform: scale(2);
+  transition: all 4s;
+}
+main .main-section {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 40px;
+}
+main section .title {
+  font-family: "Lobster", cursive;
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+main section .title:hover {
+  transform: translate(512px);
+  transition: all 4s;
+}
+main section div .title-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 25px;
+}
+main section div .principales {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+main section div img {
+  height: 400px;
+  width: 600px;
+}
+main section div .leap-of-faith {
+  height: 400px;
+  width: 350px;
+  display: flex;
+}
+main section div .atracciones {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+main section div .guinness-text {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 25px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  margin-bottom: 30px;
+  background-color: #6495ed;
+}
+main section div .guinness-text:hover {
+  transform: scale(1.5);
+  transition: all 2s;
+}
+main section .guinness {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  main .welcome {
+    margin-top: 70px;
+    color: blue;
+    font-family: "Permanent Marker", cursive;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+  }
+  main .welcome:hover {
+    transform: scale(2);
+    transition: all 4s;
+  }
+  main .main-section {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 40px;
+  }
+  main section .title {
+    font-family: "Lobster", cursive;
+    font-size: 45px;
+    margin-bottom: 20px;
+  }
+  main section .title:hover {
+    transform: translate(512px);
+    transition: all 4s;
+  }
+  main section div .title-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-family: "Shadows Into Light", cursive;
+    font-size: 25px;
+  }
+  main section div .principales {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  main section div img {
+    height: 400px;
+    width: 600px;
+  }
+  main section div .leap-of-faith {
+    height: 400px;
+    width: 350px;
+    display: flex;
+  }
+  main section div .atracciones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  main section div .guinness-text {
+    font-family: "Shadows Into Light", cursive;
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+    background-color: #6495ed;
+  }
+  main section div .guinness-text:hover {
+    transform: scale(1.5);
+    transition: all 2s;
+  }
+  main section .guinness {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.title-ubicacion {
+  margin-top: 70px;
+  margin-left: 10px;
+  font-family: "Lobster", cursive;
+  font-size: 45px;
+}
+.title-ubicacion:hover {
+  transform: translate(400px);
+  transition: all 4s;
+}
+
+.ubicacion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+  font-weight: bold;
+}
+
+.mapa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .title-ubicacion {
+    margin-top: 70px;
+    margin-left: 10px;
+    font-family: "Lobster", cursive;
+    font-size: 45px;
+  }
+  .title-ubicacion:hover {
+    transform: translate(400px);
+    transition: all 4s;
+  }
+  .ubicacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-weight: bold;
+  }
+  .mapa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+#atracciones-title {
+  margin-top: 70px;
+  font-family: "Lobster", cursive;
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+#atracciones-title:hover {
+  transform: translate(512px);
+  transition: all 4s;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(7, 1fr);
+  grid-column-gap: 3px;
+  grid-row-gap: 10px;
+}
+
+img {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.title-atracciones {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.muchos-mas {
+  font-size: large;
+  padding-top: 25px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  #atracciones-title {
+    margin-top: 70px;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    grid-column-gap: 3px;
+    grid-row-gap: 10px;
+  }
+  .title-atracciones {
+    font-family: "Shadows Into Light", cursive;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .muchos-mas {
+    font-size: large;
+    padding-top: 25px;
+  }
+}
+.title-elige {
+  font-family: "Lobster", cursive;
+  font-size: 45px;
+  margin-left: 10px;
+  margin-top: 70px;
+}
+.title-elige:hover {
+  transform: translate(400px);
+  transition: all 4s;
+}
+
+.title-entradas {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 25px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  inset: 0;
+  margin: auto;
+  color: white;
+  height: 35px;
+  width: 450px;
+  border-radius: 6px;
+  background-color: rgb(82, 82, 243);
+}
+.title-entradas:hover {
+  transform: scale(2);
+  transition: all 2s;
+}
+
+.entradas {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  font-size: large;
+  margin-top: 20px;
+  margin-bottom: 45px;
+}
+
+.festeja-cumple {
+  font-size: 30px;
+  border: dotted black;
+  padding-top: 12px;
+  display: inline;
+  display: flex;
+  justify-content: center;
+  font-family: fantasy;
+}
+
+.atlantis {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.atlantis .img-atlantis {
+  height: 400px;
+  width: 600px;
+}
+
+.cumpleaños {
+  margin-left: 15px;
+  margin-right: 10px;
+  margin-top: 20px;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: fantasy;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .title-elige {
+    font-family: "Lobster", cursive;
+    font-size: 45px;
+    margin-left: 10px;
+    margin-top: 70px;
+  }
+  .title-elige:hover {
+    transform: translate(400px);
+    transition: all 4s;
+  }
+  .title-entradas {
+    font-family: "Shadows Into Light", cursive;
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    inset: 0;
+    margin: auto;
+    color: white;
+    height: 35px;
+    width: 450px;
+    border-radius: 6px;
+    background-color: rgb(82, 82, 243);
+  }
+  .title-entradas:hover {
+    transform: scale(2);
+    transition: all 2s;
+  }
+  .entradas {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    margin-top: 20px;
+    margin-bottom: 45px;
+  }
+  .festeja-cumple {
+    font-size: 30px;
+    border: dotted black;
+    padding-top: 12px;
+    display: inline;
+    display: flex;
+    justify-content: center;
+    font-family: fantasy;
+  }
+  .atlantis {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .atlantis .img-atlantis {
+    height: 400px;
+    width: 600px;
+  }
+  .cumpleaños {
+    margin-left: 15px;
+    margin-right: 10px;
+    margin-top: 20px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: fantasy;
+  }
+}
+#contacto-title {
+  margin-top: 70px;
+  margin-bottom: 40px;
+  font-family: "Lobster", cursive;
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+#contacto-title:hover {
+  transform: translate(512px);
+  transition: all 4s;
+}
+
+.contacto {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.contacto1, .contacto2, .contacto3, .contacto4, .contacto5 {
+  font-size: large;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.link-ig {
+  text-decoration: none;
+}
+.link-ig::selection {
+  background-color: aquamarine;
+  color: #6f57ff;
+}
+.link-ig:hover {
+  text-decoration: underline;
+  color: #6f57ff;
+}
+.link-ig:visited {
+  color: #7c00f0;
+}
+
+.link-fb {
+  text-decoration: none;
+}
+.link-fb::selection {
+  background-color: aquamarine;
+  color: #6f57ff;
+}
+.link-fb:hover {
+  text-decoration: underline;
+  color: #6f57ff;
+}
+.link-fb:visited {
+  color: #7c00f0;
+}
+
+.link-tiktok {
+  text-decoration: none;
+}
+.link-tiktok::selection {
+  background-color: aquamarine;
+  color: #6f57ff;
+}
+.link-tiktok:hover {
+  text-decoration: underline;
+  color: #6f57ff;
+}
+.link-tiktok:visited {
+  color: #7c00f0;
+}
+
+.contacto4::selection {
+  background-color: aquamarine;
+  color: #6f57ff;
+}
+
+.contacto5::selection {
+  background-color: aquamarine;
+  color: #6f57ff;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  #contacto-title {
+    margin-top: 70px;
+    margin-bottom: 40px;
+  }
+  .contacto {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .contacto1, .contacto2, .contacto3, .contacto4, .contacto5 {
+    font-size: large;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .link-ig .link-fb, .link-tiktok {
+    text-decoration: none;
+  }
+  .link-ig .link-fb::selection, .link-tiktok::selection {
+    background-color: aquamarine;
+    color: #6f57ff;
+  }
+  .link-ig .link-fb:hover, .link-tiktok:hover {
+    text-decoration: underline;
+    color: #6f57ff;
+  }
+  .link-ig .link-fb:visited, .link-tiktok:visited {
+    color: #7c00f0;
+  }
+  .contacto4::selection {
+    background-color: aquamarine;
+    color: #6f57ff;
+  }
+  .contacto5::selection {
+    background-color: aquamarine;
+    color: #6f57ff;
+  }
+}
+footer div nav {
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-top: 40px;
+}
+footer .footer {
+  background-color: #b2ffff;
+  margin-top: 20px;
+}
+footer .footer .div-1 {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+}
+footer .footer .div-1 .logo {
+  margin-left: 10px;
+  margin-top: 10px;
+  height: 50px;
+  width: 50px;
+}
+footer .footer .div-1 .Aquaventure {
+  font-family: "Permanent Marker", cursive;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+footer .footer .email {
+  font-family: "EB Garamond", serif;
+}
+footer .footer .seguinos {
+  font-family: "EB Garamond", serif;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+footer .footer .iconos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .footer .iconos .ig {
+  display: inline;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+}
+footer .footer .iconos .ig .instagram {
+  height: 40px;
+  width: 40px;
+}
+footer .footer .iconos .fb {
+  display: inline;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+}
+footer .footer .iconos .fb .facebook {
+  height: 40px;
+  width: 40px;
+}
+footer .footer .iconos .tt {
+  display: inline;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+}
+footer .footer .iconos .tt .tiktok {
+  height: 40px;
+  width: 40px;
+}
+footer .footer .autor {
+  font-family: "EB Garamond", serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#volver-c {
+  margin-bottom: 200px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  footer div nav {
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-top: 40px;
+  }
+  footer .footer {
+    background-color: #b2ffff;
+    margin-top: 20px;
+  }
+  footer .footer .div-1 {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+  }
+  footer .footer .div-1 .logo {
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 50px;
+    width: 50px;
+  }
+  footer .footer .div-1 .Aquaventure {
+    font-family: "Permanent Marker", cursive;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  footer .footer .email {
+    font-family: "EB Garamond", serif;
+  }
+  footer .footer .seguinos {
+    font-family: "EB Garamond", serif;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  footer .footer .iconos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  footer .footer .iconos .ig {
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+  }
+  footer .footer .iconos .ig .instagram {
+    height: 40px;
+    width: 40px;
+  }
+  footer .footer .iconos .fb {
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+  }
+  footer .footer .iconos .fb .facebook {
+    height: 40px;
+    width: 40px;
+  }
+  footer .footer .iconos .tt {
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+  }
+  footer .footer .iconos .tt .tiktok {
+    height: 40px;
+    width: 40px;
+  }
+  footer .footer .autor {
+    font-family: "EB Garamond", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  #volver-c {
+    margin-bottom: 200px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

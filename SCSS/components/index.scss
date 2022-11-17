@@ -1,0 +1,185 @@
+main {
+    .welcome {
+        margin-top: 70px;
+        color: blue;
+        font-family: 'Permanent Marker', cursive; 
+        display: flex;
+        justify-content: center;
+        font-size: 40px;
+
+        &:hover {
+            transform: scale(2);
+            transition: all 4s;
+        }
+    }
+    .main-section {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 40px;
+    }
+    section {
+        .title {
+            font-family: 'Lobster', cursive;
+            font-size: 45px;
+            margin-bottom: 20px;
+
+                &:hover {
+                transform: translate(512px);
+                transition: all 4s;
+                }
+            }
+        div {
+            .title-main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+            font-family: 'Shadows Into Light', cursive;
+            font-size: 25px;
+            }
+            .principales {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 30px;
+                margin-top: 30px;
+            }
+            img {
+                height: 400px;
+                width: 600px;
+            }
+            .leap-of-faith {
+                height: 400px;
+                width: 350px;
+                display: flex;
+            }
+            .atracciones {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-left: 50px;
+                margin-right: 50px;
+                margin-bottom: 50px;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+        }
+        div {
+            .guinness-text {
+                font-family: 'Shadows Into Light', cursive;
+                font-size: 25px;
+                font-weight: bold;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 30px;
+                margin-bottom: 30px;
+                background-color: #6495ed;
+
+                &:hover {
+                    transform: scale(1.5);
+                    transition: all 2s;
+                }
+            }
+        }
+            .guinness {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+    main {
+        .welcome {
+            margin-top: 70px;
+            color: blue;
+            font-family: 'Permanent Marker', cursive; 
+            display: flex;
+            justify-content: center;
+            font-size: 40px;
+    
+            &:hover {
+                transform: scale(2);
+                transition: all 4s;
+            }
+        }
+        .main-section {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin-left: 50px;
+            margin-right: 50px;
+            margin-top: 40px;
+        }
+        section {
+            .title {
+                font-family: 'Lobster', cursive;
+                font-size: 45px;
+                margin-bottom: 20px;
+    
+                    &:hover {
+                    transform: translate(512px);
+                    transition: all 4s;
+                    }
+                }
+            div {
+                .title-main {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-weight: bold;
+                font-family: 'Shadows Into Light', cursive;
+                font-size: 25px;
+                }
+                .principales {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-bottom: 30px;
+                    margin-top: 30px;
+                }
+                img {
+                    height: 400px;
+                    width: 600px;
+                }
+                .leap-of-faith {
+                    height: 400px;
+                    width: 350px;
+                    display: flex;
+                }
+                .atracciones {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-left: 50px;
+                    margin-right: 50px;
+                    margin-bottom: 50px;
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                }
+            }
+            div {
+                .guinness-text {
+                    font-family: 'Shadows Into Light', cursive;
+                    font-size: 25px;
+                    font-weight: bold;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 30px;
+                    margin-bottom: 30px;
+                    background-color: #6495ed;
+    
+                    &:hover {
+                        transform: scale(1.5);
+                        transition: all 2s;
+                    }
+                }
+            }
+                .guinness {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+        }
+    }
+}

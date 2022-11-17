@@ -1,0 +1,185 @@
+footer {
+    div {
+        nav {
+            margin-top: 20px;
+            margin-left: 50px;
+            margin-top: 40px;
+        }
+    }
+
+    .footer { 
+        background-color: #b2ffff;
+        margin-top: 20px;
+        .div-1 {
+            display: flex;
+            justify-content: left;
+            align-items: left;
+            .logo {
+                margin-left: 10px;
+                margin-top: 10px;
+                height: 50px;
+                width: 50px;
+            }
+            .Aquaventure {
+                font-family: 'Permanent Marker', cursive; 
+                font-size: 25px;
+                font-weight: bold;
+                margin-top: 20px;
+                margin-left: 10px;
+            }
+        }
+        .email {
+            font-family: 'EB Garamond', serif;
+        }
+        .seguinos {
+            font-family: 'EB Garamond', serif;
+            font-size: 20px;
+            font-weight: bold;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px
+        }
+        .iconos {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .ig {
+                display: inline;
+                margin-left: 10px;
+                margin-right: 10px;
+                margin-bottom: 15px;
+                .instagram {
+                    height: 40px;
+                    width: 40px;
+                }
+            }
+            .fb {
+                display: inline;
+                margin-left: 10px;
+                margin-right: 10px;
+                margin-bottom: 15px;
+                .facebook {
+                    height: 40px;
+                    width: 40px;
+                }
+            }
+            .tt {
+                display: inline;
+                margin-left: 10px;
+                margin-right: 10px;
+                margin-bottom: 15px;
+                .tiktok {
+                    height: 40px;
+                    width: 40px;
+                }
+            }
+        }
+        .autor {
+            font-family: 'EB Garamond', serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+    }
+}
+
+#volver-c {
+    margin-bottom: 200px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+    footer {
+        div {
+            nav {
+                margin-top: 20px;
+                margin-left: 50px;
+                margin-top: 40px;
+            }
+        }
+    
+        .footer { 
+            background-color: #b2ffff;
+            margin-top: 20px;
+            .div-1 {
+                display: flex;
+                justify-content: left;
+                align-items: left;
+                .logo {
+                    margin-left: 10px;
+                    margin-top: 10px;
+                    height: 50px;
+                    width: 50px;
+                }
+                .Aquaventure {
+                    font-family: 'Permanent Marker', cursive; 
+                    font-size: 25px;
+                    font-weight: bold;
+                    margin-top: 20px;
+                    margin-left: 10px;
+                }
+            }
+            .email {
+                font-family: 'EB Garamond', serif;
+            }
+            .seguinos {
+                font-family: 'EB Garamond', serif;
+                font-size: 20px;
+                font-weight: bold;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 20px
+            }
+            .iconos {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+    
+                .ig {
+                    display: inline;
+                    margin-left: 10px;
+                    margin-right: 10px;
+                    margin-bottom: 15px;
+                    .instagram {
+                        height: 40px;
+                        width: 40px;
+                    }
+                }
+                .fb {
+                    display: inline;
+                    margin-left: 10px;
+                    margin-right: 10px;
+                    margin-bottom: 15px;
+                    .facebook {
+                        height: 40px;
+                        width: 40px;
+                    }
+                }
+                .tt {
+                    display: inline;
+                    margin-left: 10px;
+                    margin-right: 10px;
+                    margin-bottom: 15px;
+                    .tiktok {
+                        height: 40px;
+                        width: 40px;
+                    }
+                }
+            }
+            .autor {
+                font-family: 'EB Garamond', serif;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 20px;
+            }
+        }
+    }
+    
+    #volver-c {
+        margin-bottom: 200px;
+    }
+}

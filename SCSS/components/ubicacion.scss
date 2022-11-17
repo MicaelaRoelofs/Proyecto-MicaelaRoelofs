@@ -1,0 +1,49 @@
+.title-ubicacion {
+    margin-top: 70px;
+    margin-left: 10px;
+    font-family: 'Lobster', cursive;
+    font-size: 45px;
+
+    &:hover {
+        transform: translate(400px);
+        transition: all 4s;
+    }
+}
+.ubicacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-weight: bold;
+}
+.mapa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+    .title-ubicacion {
+        margin-top: 70px;
+        margin-left: 10px;
+        font-family: 'Lobster', cursive;
+        font-size: 45px;
+    
+        &:hover {
+            transform: translate(400px);
+            transition: all 4s;
+        }
+    }
+    .ubicacion {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: large;
+        font-weight: bold;
+    }
+    .mapa {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
