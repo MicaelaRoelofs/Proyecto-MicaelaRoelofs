@@ -44,11 +44,13 @@ img {
     }
     
     .grid-container {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(7, 1fr);
-        grid-column-gap: 3px;
-        grid-row-gap: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    img {
+        height: 100px;
+        width: 150px;
     }
     
     .title-atracciones {
